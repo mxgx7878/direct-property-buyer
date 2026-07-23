@@ -52,7 +52,7 @@ require __DIR__ . '/includes/header.php';
               <a href="contact.php" data-link class="btn btn-gold"
                 >Request a Free Property Assessment</a
               ><a
-                href="https://wa.me/61421300305?text=Hi%20Direct%20Property%20Buyer%2C%20I'd%20like%20a%20free%2C%20no-obligation%20property%20assessment."
+                href="https://wa.me/0421300305?text=Hi%20Direct%20Property%20Buyer%2C%20I'd%20like%20a%20free%2C%20no-obligation%20property%20assessment."
                 target="_blank"
                 rel="noopener"
                 class="btn btn-light"
@@ -116,7 +116,7 @@ require __DIR__ . '/includes/header.php';
               <h2
                 class="font-display text-3xl md:text-[2.5rem] leading-[1.12] text-navy mb-4"
               >
-                Three Other Practical Ways to Sell
+                Three Practical Ways to Sell
               </h2>
               <p class="text-base md:text-lg text-ink/70 leading-relaxed">
                 Each path suits a different situation. Explore the one that
@@ -202,7 +202,7 @@ require __DIR__ . '/includes/header.php';
 $cmp_eyebrow = 'Compare your options';
 $cmp_heading = 'A clearer way to weigh it up';
 $cmp_bg      = 'bg-white';
-$cmp_note    = 'Scores are general guidance only (0 = lowest, 5 = highest). Higher is better across every category.';
+// $cmp_note    = 'Scores are general guidance only (0 = lowest, 5 = highest). Higher is better across every category.';
 include __DIR__ . '/includes/comparison-table.php';
 ?>
       <section class="py-16 md:py-24 bg-ivory">
@@ -233,7 +233,7 @@ include __DIR__ . '/includes/comparison-table.php';
       </div>
       <div class="flex flex-wrap gap-3 mt-8">
         <a href="contact.php" data-link class="btn btn-gold">Request a Free Property Assessment</a>
-        <a href="https://wa.me/61421300305?text=Hi%20Direct%20Property%20Buyer%2C%20I'd%20like%20a%20free%2C%20no-obligation%20property%20assessment." target="_blank" rel="noopener" class="btn btn-outline">Message Us on WhatsApp</a>
+        <a href="https://wa.me/0421300305?text=Hi%20Direct%20Property%20Buyer%2C%20I'd%20like%20a%20free%2C%20no-obligation%20property%20assessment." target="_blank" rel="noopener" class="btn btn-outline">Message Us on WhatsApp</a>
       </div>
     </div>
   </div>
@@ -897,12 +897,12 @@ include __DIR__ . '/includes/comparison-table.php';
             Not sure which option suits your situation?
           </h2>
           <p class="text-ivory/80 text-lg mb-9 max-w-2xl mx-auto">
-            Send us a WhatsApp message and we will respond within 12 hours — no
+            Request a free property assessment and we will respond within 12 hours — no
             pressure, no obligation.
           </p>
           <div class="flex flex-wrap gap-3 justify-center">
             <a
-              href="https://wa.me/61421300305?text=Hi%20Direct%20Property%20Buyer%2C%20I'd%20like%20a%20free%2C%20no-obligation%20property%20assessment."
+              href="https://wa.me/0421300305?text=Hi%20Direct%20Property%20Buyer%2C%20I'd%20like%20a%20free%2C%20no-obligation%20property%20assessment."
               target="_blank"
               rel="noopener"
               class="btn btn-gold"

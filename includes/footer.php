@@ -46,19 +46,19 @@
         </div>
         <div class="flex flex-col lg:flex-row gap-6 justify-between pt-8">
             <div class="text-xs leading-relaxed max-w-xl">
-                <p class="mb-2">Direct Property Buyer is a business name of The Trustee for Behrad Family Trust. <br /> ABN: <?= ABN ?>.</p>
-                <p class="text-ivory/45">Phone <button id="revealPhoneFooter" class="text-gold-soft/90 cursor-pointer hover:text-gold-soft transition font-semibold bg-transparent border-0 p-0">04XX XXX *** &mdash; tap to reveal</button> &middot; <a href="mailto:<?= EMAIL ?>" class="text-gold-soft/90"><?= EMAIL ?></a> &middot; Victoria</p>
+                <p class="mb-2">Direct Property Buyer is a business name of The Trustee for Behrad Family Trust. <br /> ABN: 37 599 548 335.</p>
+                <p class="text-ivory/45">Phone <button id="revealPhoneFooter" class="text-gold-soft/90 cursor-pointer hover:text-gold-soft transition font-semibold bg-transparent border-0 p-0">0421 300 305 </button> &middot; <a href="mailto:<?= EMAIL ?>" class="text-gold-soft/90"><?= EMAIL ?></a> &middot; Victoria</p>
             </div>
             <div class="flex flex-wrap gap-x-5 gap-y-2 text-xs text-ivory/55"><a href="contact.php" data-link class="hover:text-gold-soft transition">Contact</a><a href="privacy-policy.php" data-link class="hover:text-gold-soft transition">Privacy Policy</a><a href="terms.php" data-link class="hover:text-gold-soft transition">Terms</a><a href="disclaimer.php" data-link class="hover:text-gold-soft transition">Disclaimer</a><a href="cookies-analytics.php" data-link class="hover:text-gold-soft transition">Cookies / Analytics</a></div>
         </div>
         <p class="text-center text-xs text-ivory/35 mt-8">&copy; <span data-year></span> Direct Property Buyer &middot; Presented by Orchid Digital Media.</p>
     </div>
 </footer>
-<a href="<?= WHATSAPP_URL ?>" target="_blank" rel="noopener" class="hidden lg:inline-flex fixed bottom-6 right-6 z-30 btn btn-gold shadow-2xl"><i class="fa-brands fa-whatsapp"></i> Message Us on WhatsApp</a>
+<a href="contact.php" data-link class="hidden lg:inline-flex fixed bottom-6 right-6 z-30 btn btn-gold shadow-2xl"><i class="fa-solid fa-phone"></i> Request a Callback</a>
 <div class="lg:hidden fixed bottom-0 inset-x-0 z-50 bg-navy/95 backdrop-blur border-t border-gold/30 grid grid-cols-3 text-center">
     <a href="tel:<?= PHONE_INTL ?>" class="py-2.5 text-ivory text-[0.7rem] font-semibold flex flex-col items-center gap-0.5"><span class="text-gold-soft text-lg leading-none"><i class="fa-solid fa-phone"></i></span>Call</a>
-    <a href="<?= WHATSAPP_URL ?>" target="_blank" rel="noopener" class="py-2.5 text-ivory text-[0.7rem] font-semibold flex flex-col items-center gap-0.5 border-x border-white/10"><span class="text-gold-soft text-lg leading-none"><i class="fa-brands fa-whatsapp"></i></span>WhatsApp</a>
-    <a href="contact.php" data-link class="py-2.5 text-ivory text-[0.7rem] font-semibold flex flex-col items-center gap-0.5"><span class="text-gold-soft text-lg leading-none"><i class="fa-solid fa-star"></i></span>Assessment</a>
+    <a href="contact.php" data-link class="py-2.5 text-ivory text-[0.7rem] font-semibold flex flex-col items-center gap-0.5 border-x border-white/10"><span class="text-gold-soft text-lg leading-none"><i class="fa-solid fa-star"></i></span>Get in Touch</a>
+    <a href="<?= WHATSAPP_URL ?>" target="_blank" rel="noopener" class="py-2.5 text-ivory text-[0.7rem] font-semibold flex flex-col items-center gap-0.5"><span class="text-gold-soft text-lg leading-none"><i class="fa-brands fa-whatsapp"></i></span>WhatsApp</a>
 </div>
 <script src="./assets/app.js"></script>
 </body>

@@ -26,7 +26,7 @@ require __DIR__ . '/includes/header.php';
                 of the main routes.</p>
             <div class="flex flex-wrap gap-3"><a href="contact.php" data-link class="btn btn-gold">Request a Free
                     Property Assessment</a><a
-                    href="https://wa.me/61421300305?text=Hi%20Direct%20Property%20Buyer%2C%20I'd%20like%20a%20free%2C%20no-obligation%20property%20assessment."
+                    href="https://wa.me/0421300305?text=Hi%20Direct%20Property%20Buyer%2C%20I'd%20like%20a%20free%2C%20no-obligation%20property%20assessment."
                     target="_blank" rel="noopener" class="btn btn-light">Message Us on WhatsApp</a></div>
         </div>
     </section>
@@ -35,7 +35,7 @@ require __DIR__ . '/includes/header.php';
 $cmp_eyebrow = 'At a glance';
 $cmp_heading = 'Four routes, scored 0–5';
 $cmp_bg      = 'bg-white';
-$cmp_note    = 'Higher is generally better for you. These scores are general guidance only — every property is different.';
+// $cmp_note    = 'Higher is generally better for you. These scores are general guidance only — every property is different.';
 include __DIR__ . '/includes/comparison-table.php';
 ?>
     <section class="py-16 md:py-24 bg-ivory">
@@ -209,10 +209,9 @@ include __DIR__ . '/includes/comparison-table.php';
             <div class="mb-5"><span class="eyebrow light">Before you decide</span></div>
             <h2 class="font-display text-3xl md:text-[2.6rem] text-white leading-tight mb-5 max-w-3xl mx-auto">Not sure
                 which option suits your situation?</h2>
-            <p class="text-ivory/80 text-lg mb-9 max-w-2xl mx-auto">Send us a WhatsApp message and we will respond
-                within 12 hours — no pressure, no obligation.</p>
+            <p class="text-ivory/80 text-lg mb-9 max-w-2xl mx-auto">Request a free property assessment and we will respond within 12 hours — no pressure, no obligation.</p>
             <div class="flex flex-wrap gap-3 justify-center"><a
-                    href="https://wa.me/61421300305?text=Hi%20Direct%20Property%20Buyer%2C%20I'd%20like%20a%20free%2C%20no-obligation%20property%20assessment."
+                    href="https://wa.me/0421300305?text=Hi%20Direct%20Property%20Buyer%2C%20I'd%20like%20a%20free%2C%20no-obligation%20property%20assessment."
                     target="_blank" rel="noopener" class="btn btn-gold">Message Us on WhatsApp</a><a href="contact.php"
                     data-link class="btn btn-light">Request Free Assessment</a></div>
         </div>

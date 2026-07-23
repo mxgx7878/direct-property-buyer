@@ -1,6 +1,6 @@
 <?php
 $page_title       = 'Property Solutions | Direct Property Buyer';
-$page_description = 'Three Other Practical Ways to Sell your property: sell as-is, renovate before sale, property takeover, or a direct cash offer. Compare your options with no obligation.';
+$page_description = 'Three Practical Ways to Sell your property: sell as-is, renovate before sale, property takeover, or a direct cash offer. Compare your options with no obligation.';
 $page_slug        = 'property-solutions';
 require __DIR__ . '/includes/head.php';
 require __DIR__ . '/includes/header.php';
@@ -25,7 +25,7 @@ require __DIR__ . '/includes/header.php';
                 direct offer — and choose what genuinely fits.</p>
             <div class="flex flex-wrap gap-3"><a href="contact.php" data-link class="btn btn-gold">Request a Free
                     Property Assessment</a><a
-                    href="https://wa.me/61421300305?text=Hi%20Direct%20Property%20Buyer%2C%20I'd%20like%20a%20free%2C%20no-obligation%20property%20assessment."
+                    href="https://wa.me/0421300305?text=Hi%20Direct%20Property%20Buyer%2C%20I'd%20like%20a%20free%2C%20no-obligation%20property%20assessment."
                     target="_blank" rel="noopener" class="btn btn-light">Message Us on WhatsApp</a></div>
         </div>
     </section>
@@ -33,7 +33,7 @@ require __DIR__ . '/includes/header.php';
         <div class="max-w-7xl mx-auto px-6">
             <div class="max-w-3xl mb-12 reveal">
                 <div>
-                    <div class="mb-4"><span class="eyebrow ">Three Other Practical Ways to Sell</span></div>
+                    <div class="mb-4"><span class="eyebrow ">Three Practical Ways to Sell</span></div>
                     <h2 class="font-display text-3xl md:text-[2.5rem] leading-[1.12] text-navy mb-4">One property,
                         several paths</h2>
                     <p class="text-base md:text-lg text-ink/70 leading-relaxed">Some owners need speed and certainty.
@@ -79,7 +79,6 @@ require __DIR__ . '/includes/header.php';
         $cmp_eyebrow = 'Compare your options';
         $cmp_heading = 'See the trade-offs side by side';
         $cmp_bg      = 'bg-white';
-        $cmp_note    = 'Scores are general guidance only (0 = lowest, 5 = highest). For “Your effort”, a higher score simply means more work is involved for you.';
         include __DIR__ . '/includes/comparison-table.php';
     ?>
     <section class="py-16 md:py-24 bg-white">
@@ -259,10 +258,9 @@ require __DIR__ . '/includes/header.php';
             <div class="mb-5"><span class="eyebrow light">Before you decide</span></div>
             <h2 class="font-display text-3xl md:text-[2.6rem] text-white leading-tight mb-5 max-w-3xl mx-auto">Not sure
                 which option suits your situation?</h2>
-            <p class="text-ivory/80 text-lg mb-9 max-w-2xl mx-auto">Send us a WhatsApp message and we will respond
-                within 12 hours — no pressure, no obligation.</p>
+            <p class="text-ivory/80 text-lg mb-9 max-w-2xl mx-auto">Request a free property assessment and we will respond within 12 hours — no pressure, no obligation.</p>
             <div class="flex flex-wrap gap-3 justify-center"><a
-                    href="https://wa.me/61421300305?text=Hi%20Direct%20Property%20Buyer%2C%20I'd%20like%20a%20free%2C%20no-obligation%20property%20assessment."
+                    href="https://wa.me/0421300305?text=Hi%20Direct%20Property%20Buyer%2C%20I'd%20like%20a%20free%2C%20no-obligation%20property%20assessment."
                     target="_blank" rel="noopener" class="btn btn-gold">Message Us on WhatsApp</a><a href="contact.php"
                     data-link class="btn btn-light">Request Free Assessment</a></div>
         </div>

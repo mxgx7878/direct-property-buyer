@@ -1,6 +1,6 @@
 // Placeholder — replace with your existing app.js (phone reveal, burger menu, dropdown, [data-year], form handling)
 (function(){
-var TEL="+61421300305",PHONE="0421 300 305";
+var TEL="+0421300305",PHONE="0421 300 305";
 var wrap=document.getElementById('mnavWrap'),mnav=document.getElementById('mnav');
 function openMenu(){wrap.classList.remove('hidden');requestAnimationFrame(function(){mnav.classList.add('open');});}
 function closeMenu(){if(!wrap)return;mnav.classList.remove('open');setTimeout(function(){wrap.classList.add('hidden');},320);}

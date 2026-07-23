@@ -1,7 +1,7 @@
 <?php require_once __DIR__ . '/config.php'; ?>
 <div class="bg-rich text-white/60 text-xs hidden md:block">
     <div class="max-w-7xl mx-auto px-6 h-9 flex items-center justify-between"><span class="tracking-wide">Property Exit &amp; Value Maximisation <span class="text-gold">|</span> Victoria</span>
-        <div class="flex items-center gap-5"><span>Free, no-obligation assessment &middot; Phone <button id="revealPhone" class="text-gold-soft hover:text-white font-semibold transition">04XX XXX *** &mdash; tap to reveal</button></span></div>
+        <div class="flex items-center gap-5"><span>Free, no-obligation assessment &middot; Phone <button id="revealPhone" class="text-gold-soft hover:text-white font-semibold transition">0421 300 305</button></span></div>
     </div>
 </div>
 <header class="sticky top-0 z-40 bg-navy/95 backdrop-blur supports-[backdrop-filter]:bg-navy/90 border-b border-gold/25">
@@ -22,7 +22,7 @@
             <a href="about.php" data-link data-nav="/about" class="px-2.5 py-2 hover:text-gold-soft transition">About</a>
             <a href="contact.php" data-link data-nav="/contact" class="px-2.5 py-2 hover:text-gold-soft transition">Contact</a>
         </nav>
-        <div class="hidden xl:flex items-center gap-2.5 shrink-0"><a href="<?= WHATSAPP_URL ?>" target="_blank" rel="noopener" class="btn btn-light btn-sm"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a><a href="contact.php" data-link class="btn btn-gold btn-sm">Free Assessment</a></div>
+        <div class="hidden xl:flex items-center gap-2.5 shrink-0"><a href="contact.php" data-link class="btn btn-gold btn-sm">Get in Touch</a><a href="tel:<?= PHONE_INTL ?>" class="btn btn-light btn-sm"><i class="fa-solid fa-phone"></i> Call Us</a></div>
         <button id="burger" class="xl:hidden text-ivory text-2xl w-10 h-10 inline-flex items-center justify-center" aria-label="Open menu"><i class="fa-solid fa-bars"></i></button>
     </div>
 </header>
@@ -48,7 +48,7 @@
             <a href="about.php" data-link class="block py-2.5 text-sm">About</a>
             <a href="contact.php" data-link class="block py-2.5 text-sm">Contact</a>
         </nav>
-        <div class="p-5 border-t border-white/10 space-y-2.5"><a href="contact.php" data-link class="btn btn-gold w-full">Request Free Assessment</a>
+        <div class="p-5 border-t border-white/10 space-y-2.5"><a href="contact.php" data-link class="btn btn-gold w-full">Request a Free Property Assessment</a>
             <div class="grid grid-cols-2 gap-2.5"><a href="tel:<?= PHONE_INTL ?>" class="btn btn-light w-full"><i class="fa-solid fa-phone"></i> Call</a><a href="<?= WHATSAPP_URL ?>" target="_blank" rel="noopener" class="btn btn-light w-full"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a></div>
         </div>
     </aside>

@@ -13,35 +13,35 @@
  *  values from the reference image.
  * ─────────────────────────────────────────────────────────────
  */
-$cmp_categories = ['Speed', 'Certainty', 'Hassle Free', 'Privacy', 'Potential Resale Value'];
+$cmp_categories = ['Speed', 'Certainty', 'Hassle Free', 'Privacy', 'Potential Sale Value'];
  
 $cmp_methods = [
     [
         'name'   => 'Direct Sale to Us',
         'badge'  => 'Most direct',
-        'ratings'=> ['Speed'=>5, 'Certainty'=>5, 'Hassle Free'=>5, 'Privacy'=>5, 'Potential Resale Value'=>3],
+        'ratings'=> ['Speed'=>5, 'Certainty'=>5, 'Hassle Free'=>5, 'Privacy'=>5, 'Potential Sale Value'=>3],
     ],
     [
         'name'   => 'Property Takeover',
         'badge'  => '',
-        'ratings'=> ['Speed'=>4, 'Certainty'=>5, 'Hassle Free'=>4, 'Privacy'=>5, 'Potential Resale Value'=>5],
+        'ratings'=> ['Speed'=>4, 'Certainty'=>5, 'Hassle Free'=>5, 'Privacy'=>5, 'Potential Sale Value'=>4],
     ],
     [
         'name'   => 'Renovate Now, Pay Later',
         'badge'  => '',
-        'ratings'=> ['Speed'=>2, 'Certainty'=>4, 'Hassle Free'=>3, 'Privacy'=>4, 'Potential Resale Value'=>5],
+        'ratings'=> ['Speed'=>2, 'Certainty'=>3, 'Hassle Free'=>3, 'Privacy'=>1, 'Potential Sale Value'=>5],
     ],
     [
         'name'   => 'Agent Sale',
         'badge'  => '',
-        'ratings'=> ['Speed'=>2, 'Certainty'=>2, 'Hassle Free'=>2, 'Privacy'=>2, 'Potential Resale Value'=>4],
+        'ratings'=> ['Speed'=>2, 'Certainty'=>2, 'Hassle Free'=>2, 'Privacy'=>1, 'Potential Sale Value'=>4],
     ],
 ];
  
 $cmp_eyebrow = $cmp_eyebrow ?? 'Compare your options';
 $cmp_heading = $cmp_heading ?? 'A clearer way to weigh it up';
 $cmp_bg      = $cmp_bg      ?? 'bg-white';
-$cmp_note    = $cmp_note    ?? 'Scores are general guidance only (0 = lowest, 5 = highest).';
+$cmp_note    = $cmp_note    ?? ' ';
 ?>
 <section class="py-16 md:py-24 <?= $cmp_bg ?>">
   <div class="max-w-7xl mx-auto px-6">
