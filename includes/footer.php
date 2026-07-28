@@ -46,8 +46,8 @@
         </div>
         <div class="flex flex-col lg:flex-row gap-6 justify-between pt-8">
             <div class="text-xs leading-relaxed max-w-xl">
-                <p class="mb-2">Direct Property Buyer is a business name of The Trustee for Behrad Family Trust. <br /> ABN: 37 599 548 335.</p>
-                <p class="text-ivory/45">Phone <button id="revealPhoneFooter" class="text-gold-soft/90 cursor-pointer hover:text-gold-soft transition font-semibold bg-transparent border-0 p-0">0421 300 305 </button> &middot; <a href="mailto:<?= EMAIL ?>" class="text-gold-soft/90"><?= EMAIL ?></a> &middot; Victoria</p>
+                <p class="mb-2">Direct Property Buyer is a business name of The Trustee for Brad Family Trust. <br /> ABN: 37 599 548 335.</p>
+                <p class="text-ivory/45">Phone <button id="revealPhoneFooter" class="text-gold-soft/90 cursor-pointer hover:text-gold-soft transition font-semibold bg-transparent border-0 p-0">0421 XXX *** &mdash; tap to reveal</button> &middot; <a href="mailto:<?= EMAIL ?>" class="text-gold-soft/90"><?= EMAIL ?></a> </p>
             </div>
             <div class="flex flex-wrap gap-x-5 gap-y-2 text-xs text-ivory/55"><a href="contact.php" data-link class="hover:text-gold-soft transition">Contact</a><a href="privacy-policy.php" data-link class="hover:text-gold-soft transition">Privacy Policy</a><a href="terms.php" data-link class="hover:text-gold-soft transition">Terms</a><a href="disclaimer.php" data-link class="hover:text-gold-soft transition">Disclaimer</a><a href="cookies-analytics.php" data-link class="hover:text-gold-soft transition">Cookies / Analytics</a></div>
         </div>

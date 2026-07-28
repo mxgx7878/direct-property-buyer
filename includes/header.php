@@ -1,7 +1,7 @@
 <?php require_once __DIR__ . '/config.php'; ?>
 <div class="bg-rich text-white/60 text-xs hidden md:block">
     <div class="max-w-7xl mx-auto px-6 h-9 flex items-center justify-between"><span class="tracking-wide">Property Exit &amp; Value Maximisation <span class="text-gold">|</span> Victoria</span>
-        <div class="flex items-center gap-5"><span>Free, no-obligation assessment &middot; Phone <button id="revealPhone" class="text-gold-soft hover:text-white font-semibold transition">0421 300 305</button></span></div>
+         <div class="flex items-center gap-5"><span>Free, no-obligation assessment &middot; Phone <button id="revealPhone" class="text-gold-soft hover:text-white font-semibold transition">0421 XXX *** &mdash; tap to reveal</button></span></div>
     </div>
 </div>
 <header class="sticky top-0 z-40 bg-navy/95 backdrop-blur supports-[backdrop-filter]:bg-navy/90 border-b border-gold/25">

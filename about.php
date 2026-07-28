@@ -1,6 +1,6 @@
 <?php
 $page_title       = 'About | Direct Property Buyer';
-$page_description = 'Direct Property Buyer is led by Behrad Ghasriani, a senior project manager and property solutions specialist — a calmer, more practical way to sell in Victoria.';
+$page_description = 'Direct Property Buyer is led by Brad Ghasriani, a senior project manager and property solutions specialist — a calmer, more practical way to sell in Victoria.';
 $page_slug        = 'about';
 require __DIR__ . '/includes/head.php';
 require __DIR__ . '/includes/header.php';
@@ -17,7 +17,7 @@ require __DIR__ . '/includes/header.php';
             <div class="flex flex-wrap gap-3"><a href="contact.php" data-link class="btn btn-gold">Request a Free Property Assessment</a><a href="https://wa.me/0421300305?text=Hi%20Direct%20Property%20Buyer%2C%20I'd%20like%20a%20free%2C%20no-obligation%20property%20assessment." target="_blank" rel="noopener" class="btn btn-light">Message Us on WhatsApp</a></div>
         </div>
     </section>
-<!-- ================= MEET BEHRAD / FAMILY BUSINESS ================= -->
+<!-- ================= MEET Brad / FAMILY BUSINESS ================= -->
 <section class="py-16 md:py-24 bg-ivory">
   <div class="max-w-6xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
 
@@ -26,15 +26,15 @@ require __DIR__ . '/includes/header.php';
       <div class="card overflow-hidden">
         <div class="aspect-[4/5] bg-navy">
           <img
-            src="assets/behrad-img.webp"
-            alt="Behrad Ghasriani, Founder of Direct Property Buyer"
+            src="assets/Brad-img.webp"
+            alt="Brad Ghasriani, Founder of Direct Property Buyer"
             class="w-full h-full object-cover"
           >
         </div>
 
         <div class="p-6">
           <h3 class="font-display text-xl text-navy">
-            Behrad Ghasriani
+            Brad Ghasriani
           </h3>
 
           <p class="text-sm text-gold-dark font-semibold mb-2">
@@ -66,7 +66,7 @@ require __DIR__ . '/includes/header.php';
       <div class="space-y-4 text-ink/75 text-base leading-relaxed">
         <p>
           Direct Property Buyer is a family-owned and family-run business,
-          founded by Behrad Ghasriani. It grew out of years of hands-on
+          founded by Brad Ghasriani. It grew out of years of hands-on
           experience in property, renovation and construction — and a simple
           belief that selling a home should feel calm and considered, never
           rushed.
@@ -104,7 +104,7 @@ require __DIR__ . '/includes/header.php';
           </p>
 
           <p>
-            Behrad brings real-world property, renovation and construction
+            Brad brings real-world property, renovation and construction
             experience, along with project management know-how. That means we
             can look at a property practically — what it needs, what it is
             worth improving, and which path genuinely makes sense for you.
@@ -137,7 +137,7 @@ require __DIR__ . '/includes/header.php';
     </div>
   </div>
 </section>
-<!-- =============== END MEET BEHRAD / FAMILY BUSINESS =============== -->
+<!-- =============== END MEET Brad / FAMILY BUSINESS =============== -->
     <section class="py-16 md:py-24 bg-ivory">
         <div class="max-w-7xl mx-auto px-6">
             <div class="max-w-3xl mb-12 reveal">

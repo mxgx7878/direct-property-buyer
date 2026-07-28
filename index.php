@@ -212,12 +212,12 @@ include __DIR__ . '/includes/comparison-table.php';
       <div class="card overflow-hidden">
         <div class="aspect-[4/5] bg-navy">
           <!-- TODO: drop the client's photo in as /brad-ghasriani.jpg (keep this exact filename and every instance updates at once) -->
-          <img src="assets\behrad-img.webp"
-               alt="Behrad Ghasriani, Founder of Direct Property Buyer"
+          <img src="assets\Brad-img.webp"
+               alt="Brad Ghasriani, Founder of Direct Property Buyer"
                class="w-full h-full object-cover">
         </div>
         <div class="p-6">
-          <h3 class="font-display text-xl text-navy">Behrad Ghasriani</h3>
+          <h3 class="font-display text-xl text-navy">Brad Ghasriani</h3>
           <p class="text-sm text-gold-dark font-semibold">Founder &middot; Direct Property Buyer</p>
         </div>
       </div>
@@ -227,7 +227,7 @@ include __DIR__ . '/includes/comparison-table.php';
       <div class="mb-4"><span class="eyebrow">Our story</span></div>
       <h2 class="font-display text-3xl md:text-[2.5rem] leading-[1.12] text-navy mb-5">A family business that treats your sale personally</h2>
       <div class="space-y-4 text-ink/75 text-base leading-relaxed">
-        <p>Direct Property Buyer is a family-owned and family-run business, founded by Behrad Ghasriani. It grew out of years of hands-on experience in property, renovation and construction &mdash; and a simple belief that selling a home should feel calm and considered, never rushed.</p>
+        <p>Direct Property Buyer is a family-owned and family-run business, founded by Brad Ghasriani. It grew out of years of hands-on experience in property, renovation and construction &mdash; and a simple belief that selling a home should feel calm and considered, never rushed.</p>
         <p>Because we are a family business, every enquiry is handled personally. You deal directly with the people who make the decisions &mdash; not a call centre or a rotating cast of agents &mdash; and your situation is treated with genuine care and discretion.</p>
         <p>Our approach is to understand where you are first, then set out the realistic options &mdash; whether that is selling as-is, renovating before sale, or a direct offer. There is never any pressure to proceed, and your first property assessment is always free.</p>
       </div>
