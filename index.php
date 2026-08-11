@@ -212,7 +212,7 @@ include __DIR__ . '/includes/comparison-table.php';
       <div class="card overflow-hidden">
         <div class="aspect-[4/5] bg-navy">
           <!-- TODO: drop the client's photo in as /brad-ghasriani.jpg (keep this exact filename and every instance updates at once) -->
-          <img src="assets\Brad-img.webp"
+          <img src="assets/brad-img.webp"
                alt="Brad Ghasriani, Founder of Direct Property Buyer"
                class="w-full h-full object-cover">
         </div>

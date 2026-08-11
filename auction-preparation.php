@@ -130,7 +130,7 @@ require __DIR__ . '/includes/header.php';
                     <div class="mt-5 bg-navy rounded-2xl p-6 text-center">
                         <p class="text-ivory/80 text-sm mb-3">Prefer to talk privately?</p><a href="contact.php"
                             data-link class="btn btn-gold btn-sm w-full mb-2">Request a Callback</a><a
-                            href="tel:+0421300305" class="btn btn-light btn-sm w-full mb-2">Call 0421 300 305</a><a
+                            href="tel:+61421300305" class="btn btn-light btn-sm w-full mb-2">Call 0421 300 305</a><a
                             href="https://wa.me/0421300305?text=Hi%20Direct%20Property%20Buyer%2C%20I'd%20like%20a%20free%2C%20no-obligation%20property%20assessment."
                             target="_blank" rel="noopener" class="btn btn-light btn-sm w-full">Message Us on
                             WhatsApp</a>

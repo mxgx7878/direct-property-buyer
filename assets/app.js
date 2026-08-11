@@ -1,6 +1,6 @@
 // Placeholder — replace with your existing app.js (phone reveal, burger menu, dropdown, [data-year], form handling)
 (function(){
-var TEL="+0421300305",PHONE="0421 300 305";
+var TEL="+61421300305",PHONE="0421 300 305";
 var wrap=document.getElementById('mnavWrap'),mnav=document.getElementById('mnav');
 function openMenu(){wrap.classList.remove('hidden');requestAnimationFrame(function(){mnav.classList.add('open');});}
 function closeMenu(){if(!wrap)return;mnav.classList.remove('open');setTimeout(function(){wrap.classList.add('hidden');},320);}
@@ -9,9 +9,6 @@ var mc=document.getElementById('mclose');if(mc)mc.addEventListener('click',close
 var ms=document.getElementById('mscrim');if(ms)ms.addEventListener('click',closeMenu);
 var rp=document.getElementById('revealPhone');if(rp){rp.addEventListener('click',function(){rp.outerHTML='<a href="tel:'+TEL+'" class="text-gold-soft hover:text-white font-semibold transition">'+PHONE+'</a>';});}
 var rpf=document.getElementById('revealPhoneFooter');if(rpf){rpf.addEventListener('click',function(){rpf.outerHTML='<a href="tel:'+TEL+'" class="text-gold-soft/90 hover:text-gold-soft transition">'+PHONE+'</a>';});}
-var rpf=document.getElementById('revealPhoneContact');if(rpf){rpf.addEventListener('click',function(){rpf.outerHTML='<a href="tel:'+TEL+'" class="text-black hover:text-gold-soft transition">'+PHONE+'</a>';});}
-var rpf=document.getElementById('revealPhoneContact2');if(rpf){rpf.addEventListener('click',function(){rpf.outerHTML='<a href="tel:'+TEL+'" class="text-black hover:text-gold-soft transition">'+PHONE+'</a>';});}
-var rpf=document.getElementById('revealPhoneDirectCash');if(rpf){rpf.addEventListener('click',function(){rpf.outerHTML='<a href="tel:'+TEL+'" class="text-black hover:text-gold-soft transition">'+PHONE+'</a>';});}
 document.querySelectorAll('[data-year]').forEach(function(e){e.textContent=new Date().getFullYear();});
 var obs=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){en.target.classList.add('vis');obs.unobserve(en.target);}});},{threshold:0.12,rootMargin:'0px 0px -40px 0px'});
 document.querySelectorAll('.reveal').forEach(function(el){obs.observe(el);});

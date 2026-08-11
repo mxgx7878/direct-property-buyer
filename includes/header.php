@@ -1,7 +1,7 @@
 <?php require_once __DIR__ . '/config.php'; ?>
 <div class="bg-rich text-white/60 text-xs hidden md:block">
     <div class="max-w-7xl mx-auto px-6 h-9 flex items-center justify-between"><span class="tracking-wide">Property Exit &amp; Value Maximisation <span class="text-gold">|</span> Victoria</span>
-         <div class="flex items-center gap-5"><span>Free, no-obligation assessment &middot; Phone <button id="revealPhone" class="text-gold-soft hover:text-white font-semibold transition">0421 XXX *** &mdash; tap to reveal</button></span></div>
+        <div class="flex items-center gap-5"><span>Free, no-obligation assessment &middot; Phone <button id="revealPhone" class="text-gold-soft hover:text-white font-semibold transition">0421 XXX *** &mdash; tap to reveal</button></span></div>
     </div>
 </div>
 <header class="sticky top-0 z-40 bg-navy/95 backdrop-blur supports-[backdrop-filter]:bg-navy/90 border-b border-gold/25">
@@ -10,9 +10,9 @@
         <nav class="hidden xl:flex items-center gap-0.5 text-[0.85rem] text-ivory/85 whitespace-nowrap shrink-0">
             <a href="index.php" data-link data-nav="/" class="px-2.5 py-2 hover:text-gold-soft transition">Home</a>
             <div class="has-dd relative"><button class="px-2.5 py-2 hover:text-gold-soft transition inline-flex items-center gap-1.5">Property Solutions <span class="text-gold text-[0.7rem]">&#9662;</span></button>
-                <div class="dd absolute left-0 top-full pt-3 w-[262px]">
+                <div class="dd absolute left-0 top-full pt-3 w-72">
                     <div class="bg-white rounded-xl shadow-soft border border-line overflow-hidden py-2 text-sm text-ink"><a href="property-solutions.php" data-link class="block px-4 py-2.5 hover:bg-ivory hover:text-gold-dark transition font-medium">Property Solutions overview</a>
-                        <div class="h-px bg-line my-1"></div><a href="sell-as-is.php" data-link class="block px-4 py-2.5 hover:bg-ivory hover:text-gold-dark transition">Sell As-Is</a><a href="renovate-before-sale.php" data-link class="block px-4 py-2.5 hover:bg-ivory hover:text-gold-dark transition">Renovate Now, Pay Later</a><a href="property-takeover.php" data-link class="block px-4 py-2.5 hover:bg-ivory hover:text-gold-dark transition">Property Takeover</a><a href="direct-cash-offer.php" data-link class="block px-4 py-2.5 hover:bg-ivory hover:text-gold-dark transition">Direct Cash Offer</a><a href="compare-your-options.php" data-link class="block px-4 py-2.5 hover:bg-ivory hover:text-gold-dark transition">Compare Your Options</a>
+                        <div class="h-px bg-line my-1"></div><p class="px-4 pt-1.5 pb-1 text-[0.62rem] uppercase tracking-[0.14em] text-gold-dark/80 font-semibold">Sell As-Is / Direct Cash Offer</p><a href="sell-as-is.php" data-link class="block pl-7 pr-4 py-2 hover:bg-ivory hover:text-gold-dark transition">Sell As-Is</a><a href="direct-cash-offer.php" data-link class="block pl-7 pr-4 py-2 hover:bg-ivory hover:text-gold-dark transition">Direct Cash Offer</a><div class="h-px bg-line my-1"></div><a href="renovate-before-sale.php" data-link class="block px-4 py-2.5 hover:bg-ivory hover:text-gold-dark transition">Renovate Now, Pay Later</a><a href="property-takeover.php" data-link class="block px-4 py-2.5 hover:bg-ivory hover:text-gold-dark transition">Property Takeover</a><a href="compare-your-options.php" data-link class="block px-4 py-2.5 hover:bg-ivory hover:text-gold-dark transition">Compare Your Options</a>
                     </div>
                 </div>
             </div>
@@ -34,10 +34,11 @@
             <a href="index.php" data-link class="block py-3 border-b border-white/5 text-lg font-display">Home</a>
             <p class="text-[0.68rem] uppercase tracking-[0.2em] text-gold-dark mt-5 mb-1">Property Solutions</p>
             <a href="property-solutions.php" data-link class="block py-2.5 text-sm">Overview</a>
-            <a href="sell-as-is.php" data-link class="block py-2.5 text-sm">Sell As-Is</a>
-            <a href="renovate-before-sale.php" data-link class="block py-2.5 text-sm">Renovate Now, Pay Later</a>
+            <p class="text-[0.6rem] uppercase tracking-[0.16em] text-gold-dark/70 mt-2.5 mb-0.5">Sell As-Is / Direct Cash Offer</p>
+            <a href="sell-as-is.php" data-link class="block py-2 text-sm pl-3">Sell As-Is</a>
+            <a href="direct-cash-offer.php" data-link class="block py-2 text-sm pl-3">Direct Cash Offer</a>
+            <a href="renovate-before-sale.php" data-link class="block py-2.5 text-sm mt-1">Renovate Now, Pay Later</a>
             <a href="property-takeover.php" data-link class="block py-2.5 text-sm">Property Takeover</a>
-            <a href="direct-cash-offer.php" data-link class="block py-2.5 text-sm">Direct Cash Offer</a>
             <a href="compare-your-options.php" data-link class="block py-2.5 text-sm">Compare Your Options</a>
             <p class="text-[0.68rem] uppercase tracking-[0.2em] text-gold-dark mt-5 mb-1">Situations</p>
             <a href="abandoned-property.php" data-link class="block py-2.5 text-sm">Abandoned Property</a><a href="auction-preparation.php" data-link class="block py-2.5 text-sm">Auction Preparation</a><a href="damaged-property.php" data-link class="block py-2.5 text-sm">Damaged Property</a><a href="divorce-separation.php" data-link class="block py-2.5 text-sm">Divorce / Separation</a><a href="failed-auction.php" data-link class="block py-2.5 text-sm">Failed Auction</a><a href="hoarder-cluttered-property.php" data-link class="block py-2.5 text-sm">Hoarder / Cluttered</a><a href="inherited-property.php" data-link class="block py-2.5 text-sm">Inherited Property</a><a href="investment-property-exit.php" data-link class="block py-2.5 text-sm">Investment Property Exit</a><a href="low-market-value.php" data-link class="block py-2.5 text-sm">Low Market Value</a><a href="mortgage-pressure.php" data-link class="block py-2.5 text-sm">Mortgage Pressure</a><a href="off-market-sale.php" data-link class="block py-2.5 text-sm">Off-Market Sale</a><a href="pre-sale-renovation.php" data-link class="block py-2.5 text-sm">Pre-Sale Renovation</a><a href="problem-tenants.php" data-link class="block py-2.5 text-sm">Problem Tenants</a><a href="property-renovation.php" data-link class="block py-2.5 text-sm">Property Renovation</a><a href="property-styling.php" data-link class="block py-2.5 text-sm">Property Styling</a><a href="relocation.php" data-link class="block py-2.5 text-sm">Relocation</a><a href="retirement-downsizing.php" data-link class="block py-2.5 text-sm">Retirement / Downsizing</a><a href="sell-without-an-agent.php" data-link class="block py-2.5 text-sm">Sell Without an Agent</a><a href="unfinished-renovation.php" data-link class="block py-2.5 text-sm">Unfinished Renovation</a><a href="urgent-sale.php" data-link class="block py-2.5 text-sm">Need to Sell Quickly</a><a href="vacant-property.php" data-link class="block py-2.5 text-sm">Vacant Property</a><a href="value-maximisation.php" data-link class="block py-2.5 text-sm">Value Maximisation</a><a href="deceased-estate.php" data-link class="block py-2.5 text-sm">Deceased Estate</a>

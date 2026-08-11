@@ -39,7 +39,10 @@ require __DIR__ . '/includes/header.php';
                             path does not fit</h2>
                         <p class="text-base md:text-lg text-ink/70 leading-relaxed">Open-market campaigns take time and
                             carry uncertainty. For some owners — facing deadlines, costs or difficult circumstances —
-                            certainty today is worth more than a maybe in two months.</p>
+                            certainty today is worth more than a maybe in two months. A Direct Cash Offer is one
+                            possible pathway for owners who want to <a href="sell-as-is.php" data-link
+                                class="text-gold-dark font-semibold hover:text-gold underline decoration-gold/40 underline-offset-2">sell
+                                as-is</a> with speed, privacy and certainty.</p>
                     </div>
                 </div>
                 <div class="grid md:grid-cols-2 gap-8 reveal">
@@ -316,7 +319,7 @@ require __DIR__ . '/includes/header.php';
     </section>
     <script>
     (function() {
-        var TEL = "+0421300305",
+        var TEL = "+61421300305",
             PHONE = "0421 300 305";
         document.querySelectorAll('[data-reveal-phone]').forEach(function(el) {
             el.addEventListener('click', function() {
