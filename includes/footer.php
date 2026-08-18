@@ -46,7 +46,7 @@
         </div>
         <div class="flex flex-col lg:flex-row gap-6 justify-between pt-8">
             <div class="text-xs leading-relaxed max-w-xl">
-                <p class="mb-2">Direct Property Buyer is a business name of The Trustee for Brad Family Trust. <br /> ABN: 37 599 548 335.</p>
+                <p class="mb-2">Direct Property Buyer is a business name of The Trustee for Behrad Family Trust. <br /> ABN: 37 599 548 335.</p>
                 <p class="text-ivory/45">Phone <button id="revealPhoneFooter" class="text-gold-soft/90 cursor-pointer hover:text-gold-soft transition font-semibold bg-transparent border-0 p-0">0421 XXX *** &mdash; tap to reveal</button> &middot; <a href="mailto:<?= EMAIL ?>" class="text-gold-soft/90"><?= EMAIL ?></a> </p>
             </div>
             <div class="flex flex-wrap gap-x-5 gap-y-2 text-xs text-ivory/55"><a href="contact.php" data-link class="hover:text-gold-soft transition">Contact</a><a href="privacy-policy.php" data-link class="hover:text-gold-soft transition">Privacy Policy</a><a href="terms.php" data-link class="hover:text-gold-soft transition">Terms</a><a href="disclaimer.php" data-link class="hover:text-gold-soft transition">Disclaimer</a><a href="cookies-analytics.php" data-link class="hover:text-gold-soft transition">Cookies / Analytics</a></div>
@@ -60,7 +60,7 @@
     <a href="contact.php" data-link class="py-2.5 text-ivory text-[0.7rem] font-semibold flex flex-col items-center gap-0.5 border-x border-white/10"><span class="text-gold-soft text-lg leading-none"><i class="fa-solid fa-star"></i></span>Get in Touch</a>
     <a href="<?= WHATSAPP_URL ?>" target="_blank" rel="noopener" class="py-2.5 text-ivory text-[0.7rem] font-semibold flex flex-col items-center gap-0.5"><span class="text-gold-soft text-lg leading-none"><i class="fa-brands fa-whatsapp"></i></span>WhatsApp</a>
 </div>
-<script src="./assets/app.js"></script>
+<script src="./assets/app.js?asd"></script>
 </body>
 
 </html>
