@@ -1,0 +1,333 @@
+<?php
+$page_title       = 'Property Knowledge Centre | Direct Property Buyer';
+$page_description = 'Practical, plain-English property guides — from selling as-is to navigating a failed auction — to help you make confident decisions.';
+$page_slug        = 'property-guides';
+require __DIR__ . '/includes/head.php';
+require __DIR__ . '/includes/header.php';
+?>
+<main id="app">
+    <section class="relative bg-navy overflow-hidden">
+        <div class="absolute inset-0"><img
+                src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1700&q=80"
+                onerror="this.onerror=null;this.src='https://placehold.co/1200x800/0B1F2A/C49A5A?text=Direct+Property+Buyer'"
+                class="w-full h-full object-cover" alt=""></div>
+        <div class="absolute inset-0 overlay-grad"></div>
+        <div class="relative max-w-7xl mx-auto px-6 pt-16 pb-14 md:pt-24 md:pb-20">
+            <nav class="text-xs text-ivory/55 mb-5 flex items-center gap-2 flex-wrap"><a href="index.php" data-link
+                    class="hover:text-gold-soft">Home</a> <span>›</span> <span class="text-ivory/80">Property
+                    Guides</span></nav>
+            <div class="mb-5"><span class="eyebrow light">Property Knowledge Centre</span></div>
+            <h1
+                class="font-display text-white text-[2.2rem] sm:text-4xl lg:text-[3.1rem] leading-[1.08] max-w-3xl mb-5">
+                Property Knowledge Centre</h1>
+            <p class="text-ivory/85 text-lg leading-relaxed max-w-2xl mb-8">Practical, plain-English guides to help you
+                make confident property decisions — from selling as-is to navigating a failed auction.</p>
+            <div class="flex flex-wrap gap-3"><a href="contact.php" data-link class="btn btn-gold">Request a Free
+                    Property Assessment</a><a
+                    href="https://wa.me/0421300305?text=Hi%20Direct%20Property%20Buyer%2C%20I'd%20like%20a%20free%2C%20no-obligation%20property%20assessment."
+                    target="_blank" rel="noopener" class="btn btn-light">Message Us on WhatsApp</a></div>
+        </div>
+    </section>
+    <section class="py-12 md:py-16 bg-ivory">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row gap-4 md:items-center md:justify-between mb-8"><input
+                    id="guide-search" class="field md:max-w-sm" type="search"
+                    placeholder="Search guides…" aria-label="Search property guides">
+                <p id="guide-count" class="text-sm text-ink/50" aria-live="polite">10 guides</p>
+            </div>
+            <div class="flex flex-wrap gap-2 mb-10"><span class="chip active" data-cat-chip="all">All</span><span
+                    class="chip" data-cat-chip="Selling As-Is">Selling As-Is</span><span class="chip"
+                    data-cat-chip="Renovating Before Sale">Renovating Before Sale</span><span class="chip"
+                    data-cat-chip="Deceased Estates">Deceased Estates</span><span class="chip"
+                    data-cat-chip="Mortgage Pressure">Mortgage Pressure</span><span class="chip"
+                    data-cat-chip="Failed Auction">Failed Auction</span><span class="chip"
+                    data-cat-chip="Problem Tenants">Problem Tenants</span><span class="chip"
+                    data-cat-chip="Downsizing">Downsizing</span><span class="chip"
+                    data-cat-chip="Property Investment">Property Investment</span></div><a
+                id="featured-guide"
+                href="sell-as-is-or-renovate-first.php" data-link
+                class="card overflow-hidden grid md:grid-cols-2 mb-10 reveal group">
+                <div class="h-56 md:h-auto bg-navy overflow-hidden"><img
+                        src="https://images.unsplash.com/photo-1556909212-d5b604d0c90d?auto=format&fit=crop&w=1000&q=80"
+                        onerror="this.onerror=null;this.src='https://placehold.co/1200x800/0B1F2A/C49A5A?text=Direct+Property+Buyer'"
+                        class="w-full h-full object-cover group-hover:scale-105 transition duration-500" alt=""></div>
+                <div class="p-8 flex flex-col justify-center"><span
+                        class="text-[0.68rem] uppercase tracking-wider font-bold text-gold-dark mb-2">Featured · Selling
+                        As-Is</span>
+                    <h3 class="font-display text-2xl text-navy mb-3 leading-snug">Should I sell my house as-is or
+                        renovate first?</h3>
+                    <p class="text-sm text-ink/65 leading-relaxed mb-4">A simple framework for deciding when
+                        improvements are worth it — and when they are not.</p><span
+                        class="text-sm font-semibold text-gold-dark">Read guide →</span>
+                </div>
+            </a>
+            <div id="guide-grid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6"><a href="sell-as-is-or-renovate-first.php" data-link
+                    data-guide="Selling As-Is" class="card overflow-hidden reveal block group">
+                    <div class="h-40 bg-navy overflow-hidden"><img
+                            src="https://images.unsplash.com/photo-1556909212-d5b604d0c90d?auto=format&fit=crop&w=700&q=80"
+                            onerror="this.onerror=null;this.src='https://placehold.co/1200x800/0B1F2A/C49A5A?text=Direct+Property+Buyer'"
+                            class="w-full h-full object-cover group-hover:scale-105 transition duration-500" alt="">
+                    </div>
+                    <div class="p-6"><span
+                            class="text-[0.66rem] uppercase tracking-wider font-bold text-gold-dark">Selling
+                            As-Is</span>
+                        <h4 class="font-display text-lg text-navy mt-2 mb-2 leading-snug">Should I sell my house as-is
+                            or renovate first?</h4>
+                        <p class="text-sm text-ink/65 leading-relaxed">A simple framework for deciding when improvements
+                            are worth it — and when they are not.</p>
+                    </div>
+                </a><a href="auction-failed-victoria-next-steps.php" data-link data-guide="Failed Auction"
+                    class="card overflow-hidden reveal block group">
+                    <div class="h-40 bg-navy overflow-hidden"><img
+                            src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=700&q=80"
+                            onerror="this.onerror=null;this.src='https://placehold.co/1200x800/0B1F2A/C49A5A?text=Direct+Property+Buyer'"
+                            class="w-full h-full object-cover group-hover:scale-105 transition duration-500" alt="">
+                    </div>
+                    <div class="p-6"><span
+                            class="text-[0.66rem] uppercase tracking-wider font-bold text-gold-dark">Failed
+                            Auction</span>
+                        <h4 class="font-display text-lg text-navy mt-2 mb-2 leading-snug">What to do if your auction
+                            failed in Victoria</h4>
+                        <p class="text-sm text-ink/65 leading-relaxed">Practical next steps after a passed-in or quiet
+                            campaign, without losing momentum.</p>
+                    </div>
+                </a><a href="sell-deceased-estate-victoria.php" data-link data-guide="Deceased Estates"
+                    class="card overflow-hidden reveal block group">
+                    <div class="h-40 bg-navy overflow-hidden"><img
+                            src="https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?auto=format&fit=crop&w=700&q=80"
+                            onerror="this.onerror=null;this.src='https://placehold.co/1200x800/0B1F2A/C49A5A?text=Direct+Property+Buyer'"
+                            class="w-full h-full object-cover group-hover:scale-105 transition duration-500" alt="">
+                    </div>
+                    <div class="p-6"><span
+                            class="text-[0.66rem] uppercase tracking-wider font-bold text-gold-dark">Deceased
+                            Estates</span>
+                        <h4 class="font-display text-lg text-navy mt-2 mb-2 leading-snug">How to sell a deceased estate
+                            property in Victoria</h4>
+                        <p class="text-sm text-ink/65 leading-relaxed">A respectful, step-by-step overview for executors
+                            and families.</p>
+                    </div>
+                </a><a href="selling-property-with-tenants.php" data-link data-guide="Problem Tenants"
+                    class="card overflow-hidden reveal block group">
+                    <div class="h-40 bg-navy overflow-hidden"><img
+                            src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=700&q=80"
+                            onerror="this.onerror=null;this.src='https://placehold.co/1200x800/0B1F2A/C49A5A?text=Direct+Property+Buyer'"
+                            class="w-full h-full object-cover group-hover:scale-105 transition duration-500" alt="">
+                    </div>
+                    <div class="p-6"><span
+                            class="text-[0.66rem] uppercase tracking-wider font-bold text-gold-dark">Problem
+                            Tenants</span>
+                        <h4 class="font-display text-lg text-navy mt-2 mb-2 leading-snug">Selling a property with
+                            tenants: options for landlords</h4>
+                        <p class="text-sm text-ink/65 leading-relaxed">How to exit a difficult tenancy while respecting
+                            your obligations.</p>
+                    </div>
+                </a><a href="how-much-to-spend-before-selling.php" data-link data-guide="Renovating Before Sale"
+                    class="card overflow-hidden reveal block group">
+                    <div class="h-40 bg-navy overflow-hidden"><img
+                            src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=700&q=80"
+                            onerror="this.onerror=null;this.src='https://placehold.co/1200x800/0B1F2A/C49A5A?text=Direct+Property+Buyer'"
+                            class="w-full h-full object-cover group-hover:scale-105 transition duration-500" alt="">
+                    </div>
+                    <div class="p-6"><span
+                            class="text-[0.66rem] uppercase tracking-wider font-bold text-gold-dark">Renovating Before
+                            Sale</span>
+                        <h4 class="font-display text-lg text-navy mt-2 mb-2 leading-snug">How much should you spend
+                            before selling?</h4>
+                        <p class="text-sm text-ink/65 leading-relaxed">Where pre-sale spending tends to pay off — and
+                            where it quietly does not.</p>
+                    </div>
+                </a><a href="private-agent-or-direct-buyer.php" data-link data-guide="Selling As-Is"
+                    class="card overflow-hidden reveal block group">
+                    <div class="h-40 bg-navy overflow-hidden"><img
+                            src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=700&q=80"
+                            onerror="this.onerror=null;this.src='https://placehold.co/1200x800/0B1F2A/C49A5A?text=Direct+Property+Buyer'"
+                            class="w-full h-full object-cover group-hover:scale-105 transition duration-500" alt="">
+                    </div>
+                    <div class="p-6"><span
+                            class="text-[0.66rem] uppercase tracking-wider font-bold text-gold-dark">Selling
+                            As-Is</span>
+                        <h4 class="font-display text-lg text-navy mt-2 mb-2 leading-snug">Private sale, agent sale or
+                            direct buyer: what is the difference?</h4>
+                        <p class="text-sm text-ink/65 leading-relaxed">A plain-English comparison of the main ways to
+                            sell.</p>
+                    </div>
+                </a><a href="what-happens-direct-assessment.php" data-link data-guide="Selling As-Is"
+                    class="card overflow-hidden reveal block group">
+                    <div class="h-40 bg-navy overflow-hidden"><img
+                            src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=700&q=80"
+                            onerror="this.onerror=null;this.src='https://placehold.co/1200x800/0B1F2A/C49A5A?text=Direct+Property+Buyer'"
+                            class="w-full h-full object-cover group-hover:scale-105 transition duration-500" alt="">
+                    </div>
+                    <div class="p-6"><span
+                            class="text-[0.66rem] uppercase tracking-wider font-bold text-gold-dark">Selling
+                            As-Is</span>
+                        <h4 class="font-display text-lg text-navy mt-2 mb-2 leading-snug">What happens when you request
+                            a direct property assessment?</h4>
+                        <p class="text-sm text-ink/65 leading-relaxed">A look inside our no-obligation assessment, step
+                            by step.</p>
+                    </div>
+                </a><a href="avoid-rushing-property-decision.php" data-link data-guide="Downsizing"
+                    class="card overflow-hidden reveal block group">
+                    <div class="h-40 bg-navy overflow-hidden"><img
+                            src="https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?auto=format&fit=crop&w=700&q=80"
+                            onerror="this.onerror=null;this.src='https://placehold.co/1200x800/0B1F2A/C49A5A?text=Direct+Property+Buyer'"
+                            class="w-full h-full object-cover group-hover:scale-105 transition duration-500" alt="">
+                    </div>
+                    <div class="p-6"><span
+                            class="text-[0.66rem] uppercase tracking-wider font-bold text-gold-dark">Downsizing</span>
+                        <h4 class="font-display text-lg text-navy mt-2 mb-2 leading-snug">How to avoid rushing into the
+                            wrong property decision</h4>
+                        <p class="text-sm text-ink/65 leading-relaxed">Simple checks to help you slow down and decide
+                            with confidence.</p>
+                    </div>
+                </a><a href="sell-damaged-or-cluttered-as-is.php" data-link data-guide="Selling As-Is"
+                    class="card overflow-hidden reveal block group">
+                    <div class="h-40 bg-navy overflow-hidden"><img
+                            src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=700&q=80"
+                            onerror="this.onerror=null;this.src='https://placehold.co/1200x800/0B1F2A/C49A5A?text=Direct+Property+Buyer'"
+                            class="w-full h-full object-cover group-hover:scale-105 transition duration-500" alt="">
+                    </div>
+                    <div class="p-6"><span
+                            class="text-[0.66rem] uppercase tracking-wider font-bold text-gold-dark">Selling
+                            As-Is</span>
+                        <h4 class="font-display text-lg text-navy mt-2 mb-2 leading-snug">Can I sell a damaged or
+                            cluttered property as-is?</h4>
+                        <p class="text-sm text-ink/65 leading-relaxed">Yes — here is how condition is considered and
+                            what to expect.</p>
+                    </div>
+                </a><a href="before-selling-vacant-property.php" data-link data-guide="Selling As-Is"
+                    class="card overflow-hidden reveal block group">
+                    <div class="h-40 bg-navy overflow-hidden"><img
+                            src="https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=700&q=80"
+                            onerror="this.onerror=null;this.src='https://placehold.co/1200x800/0B1F2A/C49A5A?text=Direct+Property+Buyer'"
+                            class="w-full h-full object-cover group-hover:scale-105 transition duration-500" alt="">
+                    </div>
+                    <div class="p-6"><span
+                            class="text-[0.66rem] uppercase tracking-wider font-bold text-gold-dark">Selling
+                            As-Is</span>
+                        <h4 class="font-display text-lg text-navy mt-2 mb-2 leading-snug">What should I do before
+                            selling a vacant property?</h4>
+                        <p class="text-sm text-ink/65 leading-relaxed">Reduce holding costs and risk while you weigh up
+                            your options.</p>
+                    </div>
+                </a></div>
+            <p id="guide-empty" class="hidden py-10 text-center text-ink/65">
+                No guides found. Try a different search term or category.
+            </p>
+        </div>
+    </section>
+    <section class="py-16 bg-white">
+        <div class="max-w-5xl mx-auto px-6">
+            <div
+                class="bg-navy rounded-2xl p-8 md:p-10 flex flex-col md:flex-row md:items-center gap-6 justify-between reveal">
+                <div>
+                    <h4 class="font-display text-2xl text-white mb-1">Get practical guides by email</h4>
+                    <p class="text-ivory/70 text-sm max-w-md">Occasional, useful property insights. No spam, unsubscribe
+                        anytime.</p>
+                </div>
+                <form data-news class="flex flex-col sm:flex-row gap-3 w-full md:w-auto"><input class="field sm:w-64"
+                        type="email" placeholder="Your email" required><button
+                        class="btn btn-gold whitespace-nowrap">Subscribe</button>
+                    <p data-news-msg class="hidden text-gold-soft text-sm self-center"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="relative bg-navy overflow-hidden">
+        <div class="absolute inset-0 opacity-20"><img
+                src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=1600&q=80"
+                onerror="this.onerror=null;this.src='https://placehold.co/1200x800/0B1F2A/C49A5A?text=Direct+Property+Buyer'"
+                class="w-full h-full object-cover" alt=""></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-navy via-navy/95 to-navy/70"></div>
+        <div class="relative max-w-5xl mx-auto px-6 py-20 md:py-24 text-center">
+            <div class="mb-5"><span class="eyebrow light">Before you decide</span></div>
+            <h2 class="font-display text-3xl md:text-[2.6rem] text-white leading-tight mb-5 max-w-3xl mx-auto">Not sure
+                which option suits your situation?</h2>
+            <p class="text-ivory/80 text-lg mb-9 max-w-2xl mx-auto">Request a free property assessment and we will
+                respond within 12 hours — no pressure, no obligation.</p>
+            <div class="flex flex-wrap gap-3 justify-center"><a href="contact.php" data-link
+                    class="btn btn-gold">Request a Free Property Assessment</a><a
+                    href="https://wa.me/0421300305?text=Hi%20Direct%20Property%20Buyer%2C%20I'd%20like%20a%20free%2C%20no-obligation%20property%20assessment."
+                    target="_blank" rel="noopener" class="btn btn-light">Message Us on WhatsApp</a></div>
+        </div>
+    </section>
+</main>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const searchInput = document.getElementById('guide-search');
+    const guideGrid = document.getElementById('guide-grid');
+    const guideCount = document.getElementById('guide-count');
+    const emptyMessage = document.getElementById('guide-empty');
+    const featuredGuide = document.getElementById('featured-guide');
+    const categoryChips = document.querySelectorAll('[data-cat-chip]');
+
+    if (!searchInput || !guideGrid) {
+        return;
+    }
+
+    const guideCards = Array.from(guideGrid.querySelectorAll('[data-guide]'));
+    let activeCategory = 'all';
+
+    function filterGuides() {
+        const searchTerm = searchInput.value.trim().toLowerCase();
+        let visibleCount = 0;
+
+        guideCards.forEach(function (card) {
+            const category = card.dataset.guide || '';
+            const searchableText = card.textContent.toLowerCase();
+            const matchesCategory =
+                activeCategory === 'all' || category === activeCategory;
+            const matchesSearch =
+                searchTerm === '' || searchableText.includes(searchTerm);
+            const shouldShow = matchesCategory && matchesSearch;
+
+            card.classList.toggle('hidden', !shouldShow);
+
+            if (shouldShow) {
+                visibleCount++;
+            }
+        });
+
+        guideCount.textContent =
+            visibleCount + (visibleCount === 1 ? ' guide' : ' guides');
+        emptyMessage.classList.toggle('hidden', visibleCount !== 0);
+
+        if (featuredGuide) {
+            featuredGuide.classList.toggle(
+                'hidden',
+                searchTerm !== '' || activeCategory !== 'all'
+            );
+        }
+    }
+
+    searchInput.addEventListener('input', filterGuides);
+
+    categoryChips.forEach(function (chip) {
+        chip.setAttribute('role', 'button');
+        chip.setAttribute('tabindex', '0');
+
+        function selectCategory() {
+            activeCategory = chip.dataset.catChip || 'all';
+
+            categoryChips.forEach(function (item) {
+                const isActive = item === chip;
+                item.classList.toggle('active', isActive);
+                item.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+            });
+
+            filterGuides();
+        }
+
+        chip.addEventListener('click', selectCategory);
+        chip.addEventListener('keydown', function (event) {
+            if (event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault();
+                selectCategory();
+            }
+        });
+    });
+
+    filterGuides();
+});
+</script>
+<?php require __DIR__ . '/includes/footer.php'; ?>
