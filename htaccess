@@ -1,0 +1,19 @@
+# --- Retired property-guide articles -> consolidated SORO blog (301) ---
+# The 10 old hand-coded guide pages now redirect to the blog at property-guides.php.
+# Do NOT add service pages (vacant-property.php, problem-tenants.php,
+# deceased-estate.php, etc.) here — those are live pages, not blog articles.
+
+Redirect 301 /sell-as-is-or-renovate-first.php       /property-guides.php
+Redirect 301 /auction-failed-victoria-next-steps.php /property-guides.php
+Redirect 301 /sell-deceased-estate-victoria.php      /property-guides.php
+Redirect 301 /selling-property-with-tenants.php      /property-guides.php
+Redirect 301 /how-much-to-spend-before-selling.php   /property-guides.php
+Redirect 301 /private-agent-or-direct-buyer.php      /property-guides.php
+Redirect 301 /what-happens-direct-assessment.php     /property-guides.php
+Redirect 301 /avoid-rushing-property-decision.php    /property-guides.php
+Redirect 301 /sell-damaged-or-cluttered-as-is.php    /property-guides.php
+Redirect 301 /before-selling-vacant-property.php     /property-guides.php
+
+# Also fold the retired blogs.php URL into the blog (optional if blogs.php
+# already contains the PHP redirect stub).
+Redirect 301 /blogs.php /property-guides.php

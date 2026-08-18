@@ -4,7 +4,32 @@ $page_description = 'Sell your Victorian property directly — no repairs, no op
 $page_slug        = 'index';
 require __DIR__ . '/includes/head.php';
 require __DIR__ . '/includes/header.php';
+
 ?>
+<style>
+    /* --- SORO blog feed polish -------------------------------------------------
+   Applies wherever the feed is wrapped in <div id="soro-feed">…</div>
+   (home page + property-guides.php). Safe nudges: they improve SORO's cards
+   where the selectors match and do nothing harmful where they don't. */
+#soro-feed #soro-blog { max-width: 56rem; margin-inline: auto; }
+
+#soro-feed h1,
+#soro-feed h2,
+#soro-feed h3 { font-family: "Fraunces", Georgia, serif; color: #0B1F2A; }
+
+#soro-feed img { border-radius: 0.85rem; }
+
+#soro-feed article,
+#soro-feed [class*="card"],
+#soro-feed [class*="post"] { transition: transform .3s ease, box-shadow .3s ease; }
+
+#soro-feed article:hover,
+#soro-feed [class*="card"]:hover,
+#soro-feed [class*="post"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 18px 40px -18px rgba(11, 31, 42, .35);
+}
+</style>
 <main id="app">
       <section
         class="relative min-h-[90vh] lg:min-h-[86vh] bg-navy flex items-center overflow-hidden"
@@ -205,39 +230,39 @@ $cmp_bg      = 'bg-white';
 // $cmp_note    = 'Scores are general guidance only (0 = lowest, 5 = highest). Higher is better across every category.';
 include __DIR__ . '/includes/comparison-table.php';
 ?>
-      <section class="py-16 md:py-24 bg-ivory">
-  <div class="max-w-6xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
-    <!-- Photo -->
-    <div class="reveal">
-      <div class="card overflow-hidden">
-        <div class="aspect-[4/5] bg-navy">
-          <!-- TODO: drop the client's photo in as /brad-ghasriani.jpg (keep this exact filename and every instance updates at once) -->
-          <img src="assets/brad-img.webp"
-               alt="Brad Ghasriani, Founder of Direct Property Buyer"
-               class="w-full h-full object-cover">
-        </div>
-        <div class="p-6">
-          <h3 class="font-display text-xl text-navy">Brad Ghasriani</h3>
-          <p class="text-sm text-gold-dark font-semibold">Founder &middot; Direct Property Buyer</p>
-        </div>
-      </div>
-    </div>
-    <!-- Text -->
-    <div class="reveal">
-      <div class="mb-4"><span class="eyebrow">Our story</span></div>
-      <h2 class="font-display text-3xl md:text-[2.5rem] leading-[1.12] text-navy mb-5">A family business that treats your sale personally</h2>
-      <div class="space-y-4 text-ink/75 text-base leading-relaxed">
-        <p>Direct Property Buyer is a family-owned and family-run business, founded by Brad Ghasriani. It grew out of years of hands-on experience in property, renovation and construction &mdash; and a simple belief that selling a home should feel calm and considered, never rushed.</p>
-        <p>Because we are a family business, every enquiry is handled personally. You deal directly with the people who make the decisions &mdash; not a call centre or a rotating cast of agents &mdash; and your situation is treated with genuine care and discretion.</p>
-        <p>Our approach is to understand where you are first, then set out the realistic options &mdash; whether that is selling as-is, renovating before sale, or a direct offer. There is never any pressure to proceed, and your first property assessment is always free.</p>
-      </div>
-      <div class="flex flex-wrap gap-3 mt-8">
-        <a href="contact.php" data-link class="btn btn-gold">Request a Free Property Assessment</a>
-        <a href="https://wa.me/0421300305?text=Hi%20Direct%20Property%20Buyer%2C%20I'd%20like%20a%20free%2C%20no-obligation%20property%20assessment." target="_blank" rel="noopener" class="btn btn-outline">Message Us on WhatsApp</a>
-      </div>
-    </div>
-  </div>
-</section>
+      <!--<section class="py-16 md:py-24 bg-ivory">-->
+      <!--    <div class="max-w-6xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">-->
+            <!-- Photo -->
+      <!--      <div class="reveal">-->
+      <!--        <div class="card overflow-hidden">-->
+      <!--          <div class="aspect-[4/5] bg-navy">-->
+                  <!-- TODO: drop the client's photo in as /brad-ghasriani.jpg (keep this exact filename and every instance updates at once) -->
+      <!--            <img src="assets/brad-img.webp"-->
+      <!--                 alt="Brad Ghasriani, Founder of Direct Property Buyer"-->
+      <!--                 class="w-full h-full object-cover">-->
+      <!--          </div>-->
+      <!--          <div class="p-6">-->
+      <!--            <h3 class="font-display text-xl text-navy">Brad Ghasriani</h3>-->
+      <!--            <p class="text-sm text-gold-dark font-semibold">Founder &middot; Direct Property Buyer</p>-->
+      <!--          </div>-->
+      <!--        </div>-->
+      <!--      </div>-->
+            <!-- Text -->
+      <!--      <div class="reveal">-->
+      <!--        <div class="mb-4"><span class="eyebrow">Our story</span></div>-->
+      <!--        <h2 class="font-display text-3xl md:text-[2.5rem] leading-[1.12] text-navy mb-5">A family business that treats your sale personally</h2>-->
+      <!--        <div class="space-y-4 text-ink/75 text-base leading-relaxed">-->
+      <!--          <p>Direct Property Buyer is a family-owned and family-run business, founded by Brad Ghasriani. It grew out of years of hands-on experience in property, renovation and construction &mdash; and a simple belief that selling a home should feel calm and considered, never rushed.</p>-->
+      <!--          <p>Because we are a family business, every enquiry is handled personally. You deal directly with the people who make the decisions &mdash; not a call centre or a rotating cast of agents &mdash; and your situation is treated with genuine care and discretion.</p>-->
+      <!--          <p>Our approach is to understand where you are first, then set out the realistic options &mdash; whether that is selling as-is, renovating before sale, or a direct offer. There is never any pressure to proceed, and your first property assessment is always free.</p>-->
+      <!--        </div>-->
+      <!--        <div class="flex flex-wrap gap-3 mt-8">-->
+      <!--          <a href="contact.php" data-link class="btn btn-gold">Request a Free Property Assessment</a>-->
+      <!--          <a href="https://wa.me/0421300305?text=Hi%20Direct%20Property%20Buyer%2C%20I'd%20like%20a%20free%2C%20no-obligation%20property%20assessment." target="_blank" rel="noopener" class="btn btn-outline">Message Us on WhatsApp</a>-->
+      <!--        </div>-->
+      <!--      </div>-->
+      <!--    </div>-->
+      <!--</section>-->
       <section class="py-16 md:py-24 bg-navy">
         <div class="max-w-7xl mx-auto px-6">
           <div class="max-w-3xl mb-12 reveal">
@@ -854,13 +879,31 @@ include __DIR__ . '/includes/comparison-table.php';
             <form
               data-news
               class="flex flex-col sm:flex-row gap-3 w-full md:w-auto"
+              method="POST"
+              action="emails-submit/form-submit.php"
             >
+                
+                <input
+                    type="hidden"
+                    name="form_type"
+                    value="Newsletter Subscribe"
+                >
+            
+                <div style="display:none">
+                    <input
+                        type="text"
+                        name="website"
+                        tabindex="-1"
+                        autocomplete="off"
+                    >
+                </div>
               <input
                 class="field sm:w-64"
                 placeholder="Your email"
                 type="email"
+                name="email"
                 required
-              /><button class="btn btn-gold whitespace-nowrap">
+              /><button class="btn btn-gold whitespace-nowrap" type="submit">
                 Subscribe
               </button>
               <p
@@ -871,6 +914,47 @@ include __DIR__ . '/includes/comparison-table.php';
           </div>
         </div>
       </section>
+      
+     <!-- Soro Feeed -- >
+      <!--<section class="py-16 md:py-24 bg-white">-->
+      <!--  <div class="max-w-7xl mx-auto px-6">-->
+      <!--    <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-10">-->
+      <!--      <div class="max-w-2xl">-->
+      <!--        <div class="mb-4">-->
+      <!--          <span class="eyebrow">Property Knowledge Centre</span>-->
+      <!--        </div>-->
+      <!--        <h2 class="font-display text-3xl md:text-[2.5rem] leading-[1.12] text-navy mb-4">-->
+      <!--          Practical guides for real decisions-->
+      <!--        </h2>-->
+      <!--        <p class="text-base md:text-lg text-ink/70 leading-relaxed">-->
+      <!--          Plain-English articles to help you weigh up your options — from selling-->
+      <!--          as-is to navigating a failed auction.-->
+      <!--        </p>-->
+      <!--      </div>-->
+      <!--      <a href="property-guides.php" data-link class="btn btn-outline btn-sm shrink-0">View all guides</a>-->
+      <!--    </div>-->
+
+          <!-- SORO blog feed -->
+      <!--    <div id="soro-feed" class="mb-12">-->
+      <!--      <?php require __DIR__ . '/includes/soro-blog.php'; ?>-->
+      <!--    </div>-->
+
+          <!-- Newsletter -->
+      <!--    <div class="bg-navy rounded-2xl p-8 md:p-10 flex flex-col md:flex-row md:items-center gap-6 justify-between">-->
+      <!--      <div>-->
+      <!--        <h4 class="font-display text-2xl text-white mb-1">Stay a step ahead</h4>-->
+      <!--        <p class="text-ivory/70 text-sm max-w-md">-->
+      <!--          Practical property insights, occasionally. No spam, unsubscribe anytime.-->
+      <!--        </p>-->
+      <!--      </div>-->
+      <!--      <form data-news class="flex flex-col sm:flex-row gap-3 w-full md:w-auto">-->
+      <!--        <input class="field sm:w-64" placeholder="Your email" type="email" required />-->
+      <!--        <button class="btn btn-gold whitespace-nowrap">Subscribe</button>-->
+      <!--        <p data-news-msg class="hidden text-gold-soft text-sm self-center"></p>-->
+      <!--      </form>-->
+      <!--    </div>-->
+      <!--  </div>-->
+      <!--</section>-->
       <section class="relative bg-navy overflow-hidden">
         <div class="absolute inset-0 opacity-20">
           <img
@@ -965,99 +1049,170 @@ include __DIR__ . '/includes/comparison-table.php';
           <div class="reveal">
             <div class="card p-7 md:p-9">
               <span class="accent"></span>
-              <form data-enquiry class="grid sm:grid-cols-2 gap-4">
-                <div>
-                  <label class="lbl">Full name</label
-                  ><input class="field" name="name" required />
+              <form
+                  data-enquiry
+                  class="grid sm:grid-cols-2 gap-4"
+                  method="POST"
+                  action="emails-submit/form-submit.php"
+                >
+                  
+                   <input
+                    type="hidden"
+                    name="form_type"
+                    value="Home Page Contact Form"
+                >
+            
+                <div style="display:none">
+                    <input
+                        type="text"
+                        name="website"
+                        tabindex="-1"
+                        autocomplete="off"
+                    >
                 </div>
-                <div>
-                  <label class="lbl">Phone</label
-                  ><input class="field" name="phone" type="tel" required />
-                </div>
-                <div>
-                  <label class="lbl">Email</label
-                  ><input class="field" name="email" type="email" />
-                </div>
-                <div>
-                  <label class="lbl">Property street &amp; suburb</label
-                  ><input
-                    class="field"
-                    name="address"
-                    placeholder="e.g. Smith St, Doncaster"
-                  />
-                </div>
-                <div>
-                  <label class="lbl">Owner or authorised person?</label
-                  ><select class="field" name="owner">
-                    <option>Owner</option>
-                    <option>Executor / authorised person</option>
-                    <option>Enquiring for family</option>
-                    <option>Other</option>
-                  </select>
-                </div>
-                <div>
-                  <label class="lbl">Property condition</label
-                  ><select class="field" name="condition">
-                    <option>Excellent</option>
-                    <option>Good</option>
-                    <option>Needs some work</option>
-                    <option>Significant repairs needed</option>
-                    <option>Not sure</option>
-                  </select>
-                </div>
-                <div>
-                  <label class="lbl">Your situation</label
-                  ><select class="field" name="situation">
-                    <option>Selling as-is</option>
-                    <option>Renovate before sale</option>
-                    <option>Property takeover</option>
-                    <option>Deceased estate</option>
-                    <option>Mortgage pressure</option>
-                    <option>Failed auction</option>
-                    <option>Downsizing / retirement</option>
-                    <option>Just exploring</option>
-                    <option>Other</option>
-                  </select>
-                </div>
-                <div>
-                  <label class="lbl">Timeline</label
-                  ><select class="field" name="timeline">
-                    <option>As soon as possible</option>
-                    <option>1–3 months</option>
-                    <option>3–6 months</option>
-                    <option>Just exploring</option>
-                  </select>
-                </div>
-                <div class="sm:col-span-2">
-                  <label class="lbl">Message (optional)</label
-                  ><textarea
-                    class="field"
-                    name="message"
-                    rows="3"
-                    placeholder="Anything you would like us to know"
-                  ></textarea>
-                </div>
-                <div class="sm:col-span-2 flex items-start gap-2.5">
-                  <input
-                    id="consentF"
-                    type="checkbox"
-                    class="mt-1 w-4 h-4 accent-[#A8752A]"
-                    name="consent"
-                    required
-                  /><label
-                    for="consentF"
-                    class="text-xs text-ink/70 leading-relaxed"
-                    >I confirm I am the owner or an authorised person, and I
-                    give permission to be contacted about this enquiry. This is
-                    a no-obligation request.</label
-                  >
-                </div>
-                <div class="sm:col-span-2">
-                  <button class="btn btn-gold w-full sm:w-auto">
-                    Request my free assessment
-                  </button>
-                </div>
-              </form>
+                  
+                  
+                  <div>
+                    <label class="lbl" for="full_name">Full name</label>
+                    <input
+                      id="full_name"
+                      class="field"
+                      name="name"
+                      type="text"
+                      value=""
+                      required
+                    />
+                  </div>
+                
+                  <div>
+                    <label class="lbl" for="phone">Phone</label>
+                    <input
+                      id="phone"
+                      class="field"
+                      name="phone"
+                      type="tel"
+                      value=""
+                      required
+                    />
+                  </div>
+                
+                  <div>
+                    <label class="lbl" for="email">Email</label>
+                    <input
+                      id="email"
+                      class="field"
+                      name="email"
+                      type="email"
+                      value=""
+                    />
+                  </div>
+                
+                  <div>
+                    <label class="lbl" for="address">Property street &amp; suburb</label>
+                    <input
+                      id="address"
+                      class="field"
+                      name="address"
+                      type="text"
+                      value=""
+                      placeholder="e.g. Smith St, Doncaster"
+                    />
+                  </div>
+                
+                  <div>
+                    <label class="lbl" for="owner">Owner or authorised person?</label>
+                    <select id="owner" class="field" name="owner">
+                      <option value="Owner">Owner</option>
+                      <option value="Executor / authorised person">
+                        Executor / authorised person
+                      </option>
+                      <option value="Enquiring for family">Enquiring for family</option>
+                      <option value="Other">Other</option>
+                    </select>
+                  </div>
+                
+                  <div>
+                    <label class="lbl" for="condition">Property condition</label>
+                    <select id="condition" class="field" name="condition">
+                      <option value="Excellent">Excellent</option>
+                      <option value="Good">Good</option>
+                      <option value="Needs some work">Needs some work</option>
+                      <option value="Significant repairs needed">
+                        Significant repairs needed
+                      </option>
+                      <option value="Not sure">Not sure</option>
+                    </select>
+                  </div>
+                
+                  <div>
+                    <label class="lbl" for="situation">Your situation</label>
+                    <select id="situation" class="field" name="situation">
+                      <option value="Selling as-is">Selling as-is</option>
+                      <option value="Renovate before sale">Renovate before sale</option>
+                      <option value="Property takeover">Property takeover</option>
+                      <option value="Deceased estate">Deceased estate</option>
+                      <option value="Mortgage pressure">Mortgage pressure</option>
+                      <option value="Failed auction">Failed auction</option>
+                      <option value="Downsizing / retirement">
+                        Downsizing / retirement
+                      </option>
+                      <option value="Just exploring">Just exploring</option>
+                      <option value="Other">Other</option>
+                    </select>
+                  </div>
+                
+                  <div>
+                    <label class="lbl" for="timeline">Timeline</label>
+                    <select id="timeline" class="field" name="timeline">
+                      <option value="As soon as possible">As soon as possible</option>
+                      <option value="1–3 months">1–3 months</option>
+                      <option value="3–6 months">3–6 months</option>
+                      <option value="Just exploring">Just exploring</option>
+                    </select>
+                  </div>
+                
+                  <div class="sm:col-span-2">
+                    <label class="lbl" for="message">Message (optional)</label>
+                    <textarea
+                      id="message"
+                      class="field"
+                      name="message"
+                      rows="3"
+                      placeholder="Anything you would like us to know"
+                    ></textarea>
+                  </div>
+                
+                  <div class="sm:col-span-2 flex items-start gap-2.5">
+                    <input
+                      id="consentF"
+                      type="checkbox"
+                      class="mt-1 w-4 h-4 accent-[#A8752A]"
+                      name="consent"
+                      value="Yes"
+                      required
+                    />
+                
+                    <label
+                      for="consentF"
+                      class="text-xs text-ink/70 leading-relaxed"
+                    >
+                      I confirm I am the owner or an authorised person, and I give
+                      permission to be contacted about this enquiry. This is a
+                      no-obligation request.
+                    </label>
+                  </div>
+                
+                  <div class="sm:col-span-2">
+                    <button
+                      type="submit"
+                    
+
+                      class="btn btn-gold w-full sm:w-auto"
+                    >
+                      Request my free assessment
+                    </button>
+                  </div>
+                </form>
             </div>
           </div>
         </div>

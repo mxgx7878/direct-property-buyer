@@ -1,3 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /emails-submit/
+
 Sitemap: https://www.directpropertybuyer.com.au/sitemap.xml
